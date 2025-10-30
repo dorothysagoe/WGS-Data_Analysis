@@ -47,6 +47,7 @@ done < ../download_links.txt
 
 #Confirm files exist at directory
 ls -lh bam_files/AR000*.bam
+ls -lh bam_files/AR000*.bai
 
 #Confirm files are accurate
 samtools quickcheck -v bam_files/*.bam
